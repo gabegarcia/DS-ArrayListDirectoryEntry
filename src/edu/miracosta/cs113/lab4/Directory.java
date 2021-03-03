@@ -3,6 +3,7 @@ package edu.miracosta.cs113.lab4;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.lang.String;
 
 // Lab Exercise 4
 
@@ -61,6 +62,7 @@ public class Directory {
 			if(index != -1) {
 				dE = theDirectory.get(index);
 				theDirectory.remove(theDirectory.remove(index));
+				System.out.println(dE);
 				return dE;
 			}else
 				return null;

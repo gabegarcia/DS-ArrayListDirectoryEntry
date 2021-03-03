@@ -1,5 +1,6 @@
 package edu.miracosta.cs113.lab4;
 
+import java.lang.String;
 
 public class DirectoryEntry {
 
@@ -25,4 +26,6 @@ public class DirectoryEntry {
 	    public void setName(String name) {
 	    	this.name = name;
 	    }
+	   
+	    
 }
