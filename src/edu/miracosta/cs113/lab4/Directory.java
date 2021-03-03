@@ -62,7 +62,6 @@ public class Directory {
 			if(index != -1) {
 				dE = theDirectory.get(index);
 				theDirectory.remove(theDirectory.remove(index));
-				System.out.println(dE);
 				return dE;
 			}else
 				return null;
